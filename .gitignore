@@ -1,0 +1,19 @@
+# Dependencies
+/vendor/
+
+# IDEs
+/.idea/
+/.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs & Temp
+*.log
+/tmp/
+
+# Composer local config
+composer.lock

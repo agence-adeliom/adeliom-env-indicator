@@ -1,0 +1,17 @@
+{
+  "name": "adeliom/env-indicator",
+  "description": "Visual indicator in the HTML title tag for non-production environments.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Adeliom\\EnvIndicator\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
