@@ -26,6 +26,16 @@ composer require adeliom/env-indicator
 
 Appelez la méthode `listen()` au tout début de votre script (avant tout affichage HTML).
 
+Sur Wordpress, placez-le dans le fichier `wp-config.php`, juste après l'inclusion de l'autoloader de Composer : 
+Exemple : 
+
+```php
+require_once __DIR__ . '/vendor/autoload.php';
+use Adeliom\EnvIndicator\EnvIndicator;
+EnvIndicator::listen(WP_ENV);
+```
+
+
 ### Détection automatique
 Le script utilise `getenv('APP_ENV')` par défaut.
 
